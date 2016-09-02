@@ -1,4 +1,5 @@
-body {
-  background-color: #124598;
-  font-style: italic;
+.button-fixed {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
 }
