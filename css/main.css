@@ -3,3 +3,17 @@
   bottom: 5px;
   right: 10px;
 }
+
+body {
+  transition: top 1s ease-out 0.5s;
+  scroll-behavior: smooth;
+}
+
+.add_margin {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.navbar-brand {
+  height: 100px;
+}
