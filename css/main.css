@@ -10,10 +10,15 @@ body {
 }
 
 .add_margin {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 30px;
 }
 
 .navbar-brand {
-  height: 100px;
+  height: 130px;
+  width: 130px;
+}
+
+.float-img {
+  position: float;
+  float: left;
 }
