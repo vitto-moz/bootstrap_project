@@ -77,23 +77,20 @@
 
 				+ submitRef);
 			console.log(submitURL);
-			function SubForm (){
-    $.ajax({
-        url:submitURL,
-        type:'post',
-        data:submitURL,
-        success:function(){
-            alert("worked");
-        }
-    });
-}
+			$.ajax({
+				url:submitURL,
+				type:'post',
+				data:submitURL,
+				success:function(){
+					document.location.href  = "thankYou.html";    
+				}
+			});
 	//		$(this)[0].action=submitURL;
-      document.location.href  = "thankYou.html";    
         //$('#input-feedback').text('Thank You!');
      //   $('#input-form').on( "submit", function(){
         //return true;
       //	};
-      });
+    });
     </script>
     <script src="libs\bootstrap\dist\js\bootstrap.min.js" ></script>	
     <script src="js\form.js"></script>
