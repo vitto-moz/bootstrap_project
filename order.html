@@ -77,7 +77,17 @@
 
 				+ submitRef);
 			console.log(submitURL);
-			$(this)[0].action=submitURL;
+			function SubForm (){
+    $.ajax({
+        url:submitURL,
+        type:'post',
+        data:submitURL,
+        success:function(){
+            alert("worked");
+        }
+    });
+}
+	//		$(this)[0].action=submitURL;
       document.location.href  = "thankYou.html";    
         //$('#input-feedback').text('Thank You!');
      //   $('#input-form').on( "submit", function(){
