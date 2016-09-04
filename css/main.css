@@ -22,3 +22,7 @@ body {
   position: float;
   float: left;
 }
+
+.to-bottom {
+  bottom: 10;
+}
